@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "tsc src/index.ts",
-    "start": "ts-node src/index.ts",
+    "build": "tsc -p .",
+    "start": "tsc src/index.ts && node src/index.js",
     "dev": "nodemon --exec ts-node src/index.ts"
   },
   "keywords": [],

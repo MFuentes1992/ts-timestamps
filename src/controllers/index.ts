@@ -1,4 +1,3 @@
-import moment from "moment";
 import {isISODate, getUnixFromISO, getUTCFromISO, getUTCFromUnix} from  "../lib";
 
 export default class Controller {
